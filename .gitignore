@@ -3,6 +3,9 @@ fonts/
 gestion/
 pdf/
 pics/
+favicon.ico
+*.swf
+bg-diagonals.gif
 
 #################
 ## Eclipse
