@@ -1,0 +1,65 @@
+/* CSS Document */
+body{
+	background-color:#000;
+	margin:0;
+	padding:0;
+	font:14px/18px 'VollkornRegular', Helvetica, sans-serif;
+	color:#ffffff;
+}
+#contenedor-todo {
+       background-color:#333333;
+	   width:964px;
+	   position:relative;
+	   z-index:1;
+}
+#cabecera {
+       left:44px;
+	   top:22px;
+	   position:relative;
+	   z-index:2;
+}
+
+.menuh {
+		left:130px;
+		top:40px;
+        font: 14px, 'VollkornRegular', Arial, Helvetica, sans-serif;
+        margin-top:0px;
+		margin-left:0px;
+		position:absolute;
+	    z-index:2;
+		
+}
+
+.menuh ul, li {
+        list-style-type: none;
+}
+
+.menuh ul {
+        margin: 0;
+        padding: 0;
+}
+
+.menuh li {
+        float: left;
+}
+
+.menuh a {
+        
+        color: #ffffff;
+        padding: 3px 10px;
+        text-align: center;
+		text-decoration: none;
+        
+      
+}
+.menuh a:hover {
+       /* background: #000000;*/
+}
+#contenedor-contenido{
+ 		background-color: #f00;
+ 		/*top:132px;
+		left:44px;*/
+		position:relative;
+	    z-index:2;
+}
+

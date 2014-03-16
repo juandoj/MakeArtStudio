@@ -1,0 +1,59 @@
+/* CSS Document */
+#popup{
+	top:50%;
+    left: 50%;
+    margin-top: 65px;
+    margin-left: -440px;
+	padding:16px;
+	width:848px;
+	height:348px;
+	position:absolute;
+	background-color:#000;
+	background: rgba(0, 0, 0, 0.9);
+	z-index:500;
+}
+
+.pop_cerrar{
+	left:835px;
+	position:relative;
+}
+
+.pop_contenido{
+	left:21px;
+	width:700px;
+	font-family: 'Helvetica';
+	font-weight: normal;
+    font-style: normal;
+	font-color:#666;
+	font-size:80px;
+	line-height:75px;
+	top:10px;
+	position:relative;
+}
+/*#popup{
+	top:50%;
+    left: 50%;
+    margin-top: -174px;
+    margin-left: -174px;
+	padding:16px;
+	width:348px;
+	height:348px;
+	position:absolute;
+	background-color:#000;
+	background: rgba(0, 0, 0, 0.9);
+	z-index:500;
+}
+
+.pop_cerrar{
+	left:338px;
+	position:relative;
+}
+
+.pop_contenido{
+	left:21px;
+	width:325px;
+	font-size:16px;
+	line-height:20px;
+	top:27px;
+	position:relative;
+}*/

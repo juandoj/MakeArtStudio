@@ -1,0 +1,84 @@
+/* CSS Document */
+body{
+	background-color:#000;
+	background-image:url(../img/trama.gif);
+	margin:0;
+	padding:0;
+	font:13px 'VollkornRegular', Helvetica, sans-serif;
+	color:#ffffff;
+}
+#contenedor-global{ /*empieza con # porque es una id, las clases van con punto y las palabras reservadas solas*/
+	margin:0 auto 0 auto; /*esto hace que este enganchado arriba y abajo y a los lados este centrado*/
+	width:964px;
+	position:relative; /*hace que la posicion sea relativa a su contenedor padre*/
+	background-color:#232122;
+}
+#cabecera{
+	width:878px;
+	left:44px;
+	top:20px;
+	position:relative;
+}
+#logo{
+	width:86px;
+	height:85;
+	position:relative;
+	/*float:left; /*todos los elementos que vienen dp de el se ponen a su derecha*/
+}
+#menu{
+	width:791px;
+	position:absolute;
+	left:96px;
+	top:38px;
+	z-index:100;
+}
+.menuh li {
+        list-style-type: none;
+		float: left;
+		/*margin:0 0 0 10px;*/
+}
+.menuh a {
+		font-size:13px;
+        color: #ffffff;
+        padding: 3px 10px;
+        text-align: center;
+		text-decoration: none;  
+}
+.menuh a:hover {}
+
+#contenido{
+	width:878px;
+	left:44px;
+	position:relative;
+}
+#contenedor-pie{
+	width:878px;
+	left:44px;
+	top:40px;
+	position:relative;
+	background-color:#131313;
+	height:24px;
+}
+
+#pie{
+	left:15px;
+	top:3px;
+	position:relative;
+	font:13px 'VollkornRegular', Helvetica, sans-serif;
+	color:#666666;
+}
+
+#pie_logos{
+	width:878px;
+	left:314px; // <***** 439 - (Ancho_imagen / 2)
+	top:12px;
+	position:relative;
+}
+
+#marginador{
+	width:878px;
+	left:44px;
+	top:22px;
+	height:22px;
+	position:relative;
+}

@@ -1,0 +1,122 @@
+/* - Definiciones de contenidos por secciones - */
+/* - Make Art -*/
+#make-art-galeria{
+	width:878px;
+	height:250px;
+	position:relative;
+	background-color:#000;
+}
+
+#make-art-columnas{
+	width:878px;
+	height:273px;
+	top:27px;
+	position:relative;
+}
+
+a{
+	color:#BE0060;
+	text-decoration:none;
+}
+
+#iz{
+	width:405px;
+	/*height:273px;*/
+	position:absolute;
+	font-size:14px;
+}
+#make-art-izquierda{
+	width:405px;
+	position:absolute;
+}
+
+#de{
+	width:420px;
+	/*height:273px;*/
+	left:438px;
+	position:absolute;
+	font-size:14px;
+}
+
+/* Formulario */
+.entrada_nombre, .entrada_apellidos ,.entrada_mail{
+	width:420;
+	height:26;
+	background-color:#b1005b;
+	margin:7px;
+	padding:3px;
+}
+
+.mensaje{
+	width:420;
+	height:81;
+	background-color:#b1005b;
+	margin:7px;
+	padding:3px;
+}
+
+.entrada_nombre input{
+	position:absolute;
+	right:10px;
+	width:270px;
+	background-color: #b1005b;
+	border-style: none;
+	font-family: 'VollkornRegular', Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+.entrada_apellidos input{
+	position:absolute;
+	right:10px;
+	width:335px;
+	background-color: #b1005b;
+	border-style: none;
+	font-family: 'VollkornRegular', Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+.entrada_mail input{
+	position:absolute;
+	right:10px;
+	width:357px;
+	background-color: #b1005b;
+	border-style: none;
+	font-family: 'VollkornRegular', Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+.mensaje textarea{
+	width:397px;
+	background-color: #b1005b;
+	border-style: none;
+	font-family: 'VollkornRegular', Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
+input.error, .error, textarea.error{
+	background-color:#f00;
+}
+
+.boton{
+	width:52px;
+	height:27px;
+	margin:7px;
+	padding:3px;
+	position:absolute;
+	right:-3px;
+}
+
+.boton input{
+	width:52px;
+	height:27px;
+	background-color: #b1005b;
+	border-style: none;
+	font-family: 'VollkornRegular', Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+
