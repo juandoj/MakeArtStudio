@@ -11,7 +11,7 @@ body{
 	margin:0 auto 0 auto; /*esto hace que este enganchado arriba y abajo y a los lados este centrado*/
 	width:964px;
 	position:relative; /*hace que la posicion sea relativa a su contenedor padre*/
-	background-color:#232122;
+	background-color:#232122;    
 }
 #cabecera{
 	width:878px;
@@ -54,8 +54,8 @@ body{
 #contenedor-pie{
 	width:878px;
 	left:44px;
-	top:40px;
-	position:relative;
+	bottom:38px;
+	position:absolute;
 	background-color:#131313;
 	height:24px;
 }
@@ -70,7 +70,7 @@ body{
 
 #pie_logos{
 	width:878px;
-	left:314px; // <***** 439 - (Ancho_imagen / 2)
+	left:314px; //* <***** 439 - (Ancho_imagen / 2) */
 	top:12px;
 	position:relative;
 }
@@ -81,4 +81,9 @@ body{
 	top:22px;
 	height:22px;
 	position:relative;
+}
+
+.columnas{
+    display:table;
+	/*height:700px;*/
 }

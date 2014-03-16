@@ -20,26 +20,28 @@ a{
 }
 
 #iz{
+	display:table-cell;
 	width:405px;
-	height:273px;
+	/*height:273px;
 	position:absolute;
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 #make-art-izquierda{
 	width:405px;
-	position:absolute;
+	position:relative;
 }
 
 #de{
+	display:table-cell;
 	width:420px;
-	height:273px;
+	/*height:273px;
 	left:438px;
 	position:absolute;
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 #make-art-derecha{
 	width:420px;
-	position:absolute;
+	position:relative;
 }
 
 /* -- Scroll -- */

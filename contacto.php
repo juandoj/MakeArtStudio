@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?PHP
 	if(isset($_POST["Submit"])){
 		$nombre		= $_POST["nombre"];
@@ -26,7 +26,7 @@
 
 			$salida = "Este mensaje fue enviado por " . $nombre . " \r\n";
 			$salida .= "Su e-mail es: " . $mail . " \r\n";
-			$salida .= "Teléfono: " . $telefono . " \r\n";
+			$salida .= "TelÃ©fono: " . $telefono . " \r\n";
 			$salida .= "Mensaje: " . $mensaje . " \r\n";
 			$salida .= "Enviado el " . date('d/m/Y', time());
 
@@ -54,7 +54,7 @@
 <link href="css/font.css" rel="stylesheet" type="text/css" />
 <link href="css/base.css" rel="stylesheet" type="text/css" />
 <link href="css/contacto.css" rel="stylesheet" type="text/css" />
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 
 <body>
@@ -64,12 +64,12 @@
 			<div id="menu">  
 					<ul class="menuh">
 						<li></li>
-						<li><a href="index.html">Quiénes somos</a>|</li>
+						<li><a href="index.html">QuiÃ©nes somos</a>|</li>
 						<li><a href="make_art.html">Make art</a>|</li>
 						<li><a href="make_up.html">Make up</a>|</li>
 						<li><a href="make_hair.html">Make hair</a>|</li>
-						<li><a href="galeria.html">Galería</a>|</li>
-						<li><a href="acreditacion.html">Acreditación</a>|</li>
+						<li><a href="galeria.html">GalerÃ­a</a>|</li>
+						<li><a href="acreditacion.html">AcreditaciÃ³n</a>|</li>
 						<li><a href="profesores.html">Profesores</a>|</li>
 						<li><a href="#"><font color="#b4b4b4">Contacto</font></a>|</li>
 						<li><a href="http://www.facebook.com/maquiarte?ref=ts" target="_blank">Facebook</a>|</li>
@@ -78,8 +78,8 @@
 		</div>
 	</div><br /><br />
 	<div id="contenido">
-		<div id="make-art-galeria"><img src="img/banner_contacto.jpg" alt="make art studio" /></div>
-		<div id="make-art-columnas">
+		<div id="make-art-galeria"><img src="img/banner_contacto.jpg" alt="make art studio"  width="878px" height="250px"/></div>
+		<div id="make-art-columnas" class="columnas">
 			<div id="iz">
 				<p>:: CONTACTO ::<br/>
 				  <br/>
@@ -88,7 +88,7 @@
 				Metro P. de Valdivia y M. Montt <a href="http://www.mapcity.cl/#t=1:a=AVDA_ANDRES_BELLO__1575.PROVIDENCIA" target="_blank"> (mapa)</a></p>
 				<p>
 				. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . <br/>
-				Teléfonos<br/>
+				TelÃ©fonos<br/>
 				56 2 264 95 78<br/>
 				Horario <br/>
 			  Lunes a viernes 9.30 - 19.00 </p>
@@ -98,7 +98,7 @@
 				  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . <br/>
 				  Cont&aacute;ctanos para trabajar con nosotros<br/>
 				  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . <br/>
-	            </p>
+	            </p><br/><br/>
 			</div>
 			<div id="de">
 				:: FORMULARIO DE CONTACTO ::<br/><br/>
@@ -116,11 +116,11 @@
 					}
 					if($e_telefono){
 				?>
-					<div class="entrada_apellidos error">Teléfono:<input class="error" name="telefono" type="text" id="telefono" value="<?PHP echo $telefono;?>" /></div>
+					<div class="entrada_apellidos error">TelÃ©fono:<input class="error" name="telefono" type="text" id="telefono" value="<?PHP echo $telefono;?>" /></div>
 				<?PHP
 					}else{
 				?>
-					<div class="entrada_apellidos">Teléfono:<input name="telefono" type="text" id="telefono" value="<?PHP echo $telefono;?>" /></div>
+					<div class="entrada_apellidos">TelÃ©fono:<input name="telefono" type="text" id="telefono" value="<?PHP echo $telefono;?>" /></div>
 				<?PHP
 					}
 					if($e_mail){
@@ -147,7 +147,7 @@
 					}else{
 				?>
 					<div class="entrada_nombre">Nombre y apellidos:<input name="nombre" type="text" id="nombre" value="obligatorio *"/></div>
-					<div class="entrada_apellidos">Teléfono:<input name="telefono" type="text" id="telefono" value="obligatorio *"/></div>
+					<div class="entrada_apellidos">TelÃ©fono:<input name="telefono" type="text" id="telefono" value="obligatorio *"/></div>
 					<div class="entrada_mail">Email:<input name="mail" type="text" id="mail" value="obligatorio *"/></div>
 					<div class="mensaje"><textarea name="mensaje" id="mensaje" rows="4">obligatorio *</textarea></div>
 					<div class="boton"><input type="submit" name="Submit" value="Enviar" /></div>
@@ -168,7 +168,7 @@
 	</div>
 	<br/>
 	<div id="contenedor-pie">
-		<div id="pie">Av. Andrés Bello 1575. Providencia. #56 2 264 95 78. Copyright Make art studio 2011. Todos los derechos reservados.</div>&nbsp;
+		<div id="pie">Av. AndrÃ©s Bello 1575. Providencia. #56 2 264 95 78. Copyright Make art studio 2011. Todos los derechos reservados.</div>&nbsp;
 	</div><br/>
 	<div id="marginador">&nbsp;</div><br/>
 	

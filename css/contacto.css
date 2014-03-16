@@ -20,9 +20,10 @@ a{
 }
 
 #iz{
+	display:table-cell;
 	width:405px;
-	/*height:273px;*/
-	position:absolute;
+	/*height:273px;
+	position:absolute;*/
 	font-size:14px;
 }
 #make-art-izquierda{
@@ -31,10 +32,11 @@ a{
 }
 
 #de{
+	display:table-cell;
 	width:420px;
-	/*height:273px;*/
+	/*height:273px;
 	left:438px;
-	position:absolute;
+	position:absolute;*/
 	font-size:14px;
 }
 
